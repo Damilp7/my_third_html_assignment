@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Webpage</title>
+</head>
+<body>
+   <!-- This is section 1 to 4 -->
+  <h1>Welcome to my Webpage</h1>
+  <a href="others/about.html">Learn More About Us</a><br>
+  <a href="others/blog.html">Visit Our Blog</a><br>
+  <a href="others/contact.html">Contact Us Here</a><br><br>
+  <!-- Beginning of form -->
+  <form>
+    <label for="firstname">First Name:</label>
+    <input type="text" id="firstname" name="firstname"> <br><br>
+    <label for="lastname">Last Name:</label>
+    <input type="text" id="lastname" name="lastname"> <br><br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email"> <br><br>
+    <label for="password">Password:</label>
+    <input type="password" id="pwd" name="pwd" required><br><br>
+    <!-- This is section 5 -->
+    <label for="gender">Gender:</label>
+    <label for="male">Male</label>
+    <input type="radio" id="male" name="gender" value="Male">     
+    <label for="female">Female</label>
+    <input type="radio" id="female" name="gender" value="Female">
+    <label for="rathernotsay">Rather not say</label>
+    <input type="radio" id="rathernotsay" name="gender" value="Rather not say"><br><br>
+    <!-- This is section 6 -->
+    <label for="favorite_foods">Favorite Foods:</label>
+    <label for="beans">Beans</label>
+    <input type="checkbox" id="beans" name="beans" value="Beans">
+    <label for="rice">Rice</label>
+    <input type="checkbox" id="Rice" name="rice" value="Rice">
+    <label for="spaghetti">Spaghetti</label>
+    <input type="checkbox" id="spaghetti" name="spaghetti" value="Spaghetti">
+    <label for="soup">Soup</label>
+    <input type="checkbox" id="soup" name="soup" value="Soup">
+    <label for="Pizza">Pizza</label>
+    <input type="checkbox" id="pizza" name="pizza" value="Pizza"><br><br>
+    <!-- This is section 7 -->
+    <label for="certificate">Certificate:</label>
+      <select id="cars" name="cars">
+      <option value="FSLC">FSLC</option>
+      <option value="o-level">O'Level</option>
+      <option value="BSC">BSC</option>
+      </select><br><br>
+    <!-- This is section 8 -->
+      <label for="phone_number">Phone Number:</label>
+      <input type="tel" id="phone" name="phone"><br><br>
+    <!-- This is section 9 -->
+    <label for="about_yourself">Tell us about yourself:</label><br>
+    <textarea name="about_yourself" id="about_yourself" cols="30" rows="10" placeholder="A brief introduction about you"></textarea><br>
+    <!-- This is section 10 -->
+    <input type="submit" value="Submit">
+  </form>
+</body>
+</html>
